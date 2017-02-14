@@ -1,0 +1,6 @@
+## Ignore develop dependencies, unit tests, build dist.
+
+node_modules
+test
+dist
+.idea

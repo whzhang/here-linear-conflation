@@ -1,0 +1,18 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>HERE LinearConflation Addin</Name><AddInID>{6bca7528-b2de-40e5-a1c0-7f398218e5fb}</AddInID><Description>HERE Linear Conflation Addin</Description><Version>Beta 1.1</Version><Image>Images\here.png</Image><Author>wzhang</Author><Company>TSS</Company><Date>7/29/2016</Date><Targets><Target name="Desktop" version="10.3" /></Targets><AddIn language="PYTHON" library="LinearConflation_addin.py" namespace="LinearConflation_addin"><ArcMap>
+    <Commands>
+        <Button caption="Generate Match Candidate Table" category="HERE LinearConflation Addin" class="GenerateMatchCandidate" id="LinearConflation_addin.generateMatchCandidateButton" image="Images\prototype1.png" message="" tip="Generate Match Candidate Table"><Help heading="" /></Button>
+        <Button caption="Verify Match Candidate Table" category="HERE LinearConflation Addin" class="VerifyMatchCandidate" id="LinearConflation_addin.verifyMatchCandidateButton" image="Images\prototype2.png" message="" tip="Verify Match Candidate Table"><Help heading="" /></Button>
+        <Button caption="Generate HERE Route Feature" category="HERE LinearConflation Addin" class="GenerateHereRoute" id="LinearConflation_addin.generateHereRouteButton" image="Images\prototype3.png" message="" tip="Generate HERE Route Feature"><Help heading="" /></Button>
+        <Button caption="Generate XREF Table" category="HERE LinearConflation Addin" class="GenerateXrefTable" id="LinearConflation_addin.generateXrefTableButton" image="Images\prototype4.png" message="" tip="Generate XREF Table"><Help heading="" /></Button>
+        <Button caption="Transfer HERE Event Attribute To DOT" category="HERE LinearConflation Addin" class="TransferHereEventAttributeToDOT" id="LinearConflation_addin.transferHereEventAttributeToDOTButton" image="Images\prototype5.png" message="" tip="Transfer HERE Event Attribute To DOT"><Help heading="" /></Button>
+        <Button caption="Transfer DOT Event Attribute To HERE" category="HERE LinearConflation Addin" class="TransferDOTEventAttributeToHERE" id="LinearConflation_addin.transferDOTEventAttributeToHERE" image="Images\prototype6.png" message="" tip="Transfer DOT Event Attribute To HERE"><Help heading="" /></Button>
+        </Commands>
+    <Extensions>
+        <Extension autoLoad="true" category="HERE LinearConflation Addin" class="LinearConflationExt" description="" id="LinearConflation_addin.linearConflationExtension" name="HERE LinearConflation Extension" productName="HERE LinearConflation" showInExtensionDialog="true" />
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="HERE Linear Conflation Toolbar" category="HERE LinearConflation Addin" id="LinearConflation_addin.LinearConfaltionToolbar" showInitially="true"><Items><Button refID="LinearConflation_addin.generateMatchCandidateButton" /><Button refID="LinearConflation_addin.verifyMatchCandidateButton" /><Button refID="LinearConflation_addin.generateHereRouteButton" /><Button refID="LinearConflation_addin.generateXrefTableButton" /><Button refID="LinearConflation_addin.transferHereEventAttributeToDOTButton" /><Button refID="LinearConflation_addin.transferDOTEventAttributeToHERE" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
